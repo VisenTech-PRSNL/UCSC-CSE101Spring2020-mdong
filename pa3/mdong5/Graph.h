@@ -12,7 +12,7 @@
 #define _GRAPH_H_INCLUDE_
 
 // Exported type --------------------------------------------------------------
-typedef struct Graph *Graph;
+typedef struct Graph *GraphObj;
 /*** Constructors-Destructors ***/
 Graph newGraph(int n);
 void freeGraph(Graph *pG);
