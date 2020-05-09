@@ -1,0 +1,5 @@
+Assignment: pa4 - Depth First Search(DFS) to find Strongly connected components(SCC) in Graphs and print in Topological order
+Author: MingWei Dong
+Files to be submitted: List.c List.h Graph.c Graph.h GraphTest.c FindConponents.c Makefile README 
+
+Graph ADT implemented on the base of PA3 Graph ADT. 

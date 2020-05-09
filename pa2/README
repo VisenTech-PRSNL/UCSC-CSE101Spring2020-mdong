@@ -1,0 +1,11 @@
+Name: Mingwei Dong
+Cruz ID: mdong5
+File submitted: 
+Arithmetic.c BigInteger.c BigInteger BigInteger.h BigIntegerTest.c List.c List List.h ListTest.c README Makefile
+
+Description: 
+List.c and List.h altered from int to long. 
+grading script somehow grade lower, despite they should have work the same.
+multiply() used iterative addition to implement.
+Arithmetic broken to sample inputs. 
+Request manual grading. 
