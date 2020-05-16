@@ -26,7 +26,7 @@ void showGraph(Graph G, List L)
 
 int main()
 {
-	int n = 8;
+	int n = 6;
 	__uint8_t i = 0;
 	Graph G = newGraph(n);
 	Graph Gt;
@@ -34,20 +34,28 @@ int main()
 	for (i = 1; i <= n; i++)
 		append(IN_OUT_PARA, i);
 
+	// addArc(G, 1, 2);
+	// addArc(G, 2, 3);
+	// addArc(G, 2, 5);
+	// addArc(G, 2, 6);
+	// addArc(G, 3, 4);
+	// addArc(G, 3, 7);
+	// addArc(G, 4, 3);
+	// addArc(G, 4, 8);
+	// addArc(G, 5, 1);
+	// addArc(G, 5, 6);
+	// addArc(G, 6, 7);
+	// addArc(G, 7, 6);
+	// addArc(G, 7, 8);
+	// addArc(G, 8, 8);
 	addArc(G, 1, 2);
+	addArc(G, 1, 4);
 	addArc(G, 2, 3);
 	addArc(G, 2, 5);
 	addArc(G, 2, 6);
-	addArc(G, 3, 4);
-	addArc(G, 3, 7);
-	addArc(G, 4, 3);
-	addArc(G, 4, 8);
-	addArc(G, 5, 1);
+	addArc(G, 5, 3);
+	addArc(G, 5, 4);
 	addArc(G, 5, 6);
-	addArc(G, 6, 7);
-	addArc(G, 7, 6);
-	addArc(G, 7, 8);
-	addArc(G, 8, 8);
 	printf("Graph G adjacents: \n");
 	printGraph(stdout, G);
 	Gt = transpose(G);

@@ -1,0 +1,16 @@
+Adjacency list representation of G: 
+1: 2 4
+2: 3 5 6
+3: 
+4: 
+5: 3 4 6
+6: 
+
+G contains 6 strongly connected components:
+Component 1: 1
+Component 2: 2
+Component 3: 5
+Component 4: 6
+Component 5: 4
+Component 6: 3
+
